@@ -109,6 +109,7 @@ class Game {
         this.clearClickListeners()
         this.timer.stop()
         this.toggleBtnStart()
+        this.toggleLevelLabel();
     }
 }
 
