@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simon says</title>
+</head>
+
+<body>
+    <section class="gameboard">
+        <div id="btn-blue" class="gameboard__button left blue" data-color="blue"></div>
+        <div id="btn-green" class="gameboard__button right green" data-color="green"></div>
+        <div id="btn-pink" class="gameboard__button left pink" data-color="pink"></div>
+        <div id="btn-yellow" class="gameboard__button right yellow" data-color="yellow"></div>
+        <button id="btn-start" class="gamboard__start_button" onclick="start()">Start game</button>
+        <div class="gameboard__dashboard">
+            <h2 id="txt-level" class="hide">Level: 0</h2>
+            <h3 id="txt-timer">00:00</h3>
+        </div>
+    </section>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+    <script src="timer.js"></script>
+    <script src="button.js"></script>
+    <script src="game.js"></script>
+</body>
+
+</html>

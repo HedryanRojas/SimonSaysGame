@@ -1,0 +1,98 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	background-color: #dedede;
+	height: 100vh;
+	margin: 0;
+	align-items: center;
+	display: flex;
+}
+
+.gameboard {
+	border-radius: 50%;
+	height: 100vh;
+	margin: 0 auto;
+	max-height: 60vh;
+	max-width: 60vh;
+	overflow: hidden;
+	width: 100vh;
+}
+
+.gameboard__button {
+	display: inline-block;
+	height: 50%;
+	width: 50%;
+}
+
+.gamboard__start_button {
+	background: #ecf0f1;
+	border-radius: 20px;
+	color: #2c3e50;
+	font-size: 2.5rem;
+	height: 100px;
+	left: calc(50% - 200px);
+	outline: transparent;
+	position: absolute;
+	top: calc(50% - 50px);
+	width: 400px;
+}
+
+.gameboard__dashboard {
+	color: #2c3e50;
+	left: calc(50% - 40px);
+	position: absolute;
+	top: 0;
+}
+
+.gameboard__dashboard h3 {
+	margin-left: 15px;
+}
+
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.green {
+	background-color: #77ff87;
+}
+
+.green.light {
+	background-color: #acfab1;
+}
+
+.blue {
+	background-color: #3e84fd;
+}
+
+.blue.light {
+	background-color: #79a4ff;
+}
+
+.pink {
+	background-color: #ff9a9a;
+}
+
+.pink.light {
+	background-color: 	#ffbbbb;
+}
+
+
+.yellow {
+	background-color: 	#ffdf57;
+}
+
+.yellow.light {
+	background-color: #fff48c;
+}
+
+.hide {
+ display: none;
+}
+
